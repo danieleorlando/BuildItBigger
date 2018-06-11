@@ -1,0 +1,25 @@
+Warning: Google App Engine Java 7 runtime is deprecated.
+Warning: See https://cloud.google.com/appengine/docs/deprecations/java7
+giu 11, 2018 5:44:00 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFORMAZIONI: Overwriting system property key 'java.util.logging.config.file', value 'C:\Users\Lamberto\AppData\Local\Google\Cloud SDK\google-cloud-sdk\platform\google_appengine\google\appengine\tools\java\config\sdk\logging.properties' with value 'WEB-INF/logging.properties' from 'C:\Users\Lamberto\AndroidStudioProjects\Udacity\ud867\FinalProject\backend\build\exploded-backend\WEB-INF\appengine-web.xml'
+giu 11, 2018 5:44:01 PM com.google.apphosting.utils.jetty.JettyLogger info
+INFORMAZIONI: Logging to JettyLogger(null) via com.google.apphosting.utils.jetty.JettyLogger
+giu 11, 2018 3:44:01 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+AVVERTENZA: Your working directory, (C:\Users\Lamberto\AndroidStudioProjects\Udacity\ud867\FinalProject\backend) is not equal to your 
+web application root (C:\Users\Lamberto\AndroidStudioProjects\Udacity\ud867\FinalProject\backend\build\exploded-backend)
+You will not be able to access files from your working directory on the production server.
+
+giu 11, 2018 3:44:02 PM com.google.apphosting.utils.jetty.JettyLogger info
+INFORMAZIONI: jetty-6.1.x
+giu 11, 2018 3:44:07 PM com.google.apphosting.utils.jetty.JettyLogger info
+INFORMAZIONI: Started SelectChannelConnector@localhost:8080
+giu 11, 2018 3:44:07 PM com.google.appengine.tools.development.AbstractModule startup
+INFORMAZIONI: Module instance default is running at http://localhost:8080/
+giu 11, 2018 3:44:07 PM com.google.appengine.tools.development.AbstractModule startup
+INFORMAZIONI: The admin console is running at http://localhost:8080/_ah/admin
+giu 11, 2018 5:44:07 PM com.google.appengine.tools.development.DevAppServerImpl doStart
+INFORMAZIONI: Dev App Server is now running
+giu 11, 2018 5:44:18 PM com.google.appengine.repackaged.com.google.protobuf.UnsafeUtil supportsUnsafeByteBufferOperations
+AVVERTENZA: platform method missing - proto runtime falling back to safer methods: java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.misc")
+giu 11, 2018 5:44:18 PM com.google.appengine.repackaged.com.google.protobuf.UnsafeUtil supportsUnsafeArrayOperations
+AVVERTENZA: platform method missing - proto runtime falling back to safer methods: java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.misc")
