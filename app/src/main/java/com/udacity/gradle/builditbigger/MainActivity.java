@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
         getIdlingResource();
 
-        mIdlingResource.setIdleState(false);
+        mIdlingResource.setIdleState(true);
     }
 
 

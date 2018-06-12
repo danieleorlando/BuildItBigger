@@ -13,7 +13,10 @@ import org.junit.runner.RunWith;
 
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.action.ViewActions.click;
+import static android.support.test.espresso.assertion.ViewAssertions.matches;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
+import static android.support.test.espresso.matcher.ViewMatchers.withText;
+import static org.hamcrest.Matchers.not;
 
 @RunWith(AndroidJUnit4.class)
 public class GetJokeAsyncTaskTest{
@@ -33,6 +36,7 @@ public class GetJokeAsyncTaskTest{
     @Test
     public void checkJoke() {
         onView(withId(R.id.joke_button)).perform(click());
+        onView(withId(me.danieleorlando.jokeactivity.R.id.jokeTv)).check(matches(not(withText(""))));
     }
 
     @After
